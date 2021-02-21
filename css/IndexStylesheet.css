@@ -1,0 +1,84 @@
+#backBody{
+    margin: 0;
+    background-color: rgb(255,255,255);
+}
+a{
+    color: #ffffff;
+    font-size: 30px;
+    padding-right: 20px;
+}
+#buttonChangeBackground{
+    background-color: #4f5050;
+    color: #ffffff;
+    padding: 10px;
+    width: 10%;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    margin:auto;
+    border: 2px solid #000000;
+    min-width: 150px;
+
+}
+#pageHeading{
+    margin:0;
+    font-weight: bold;
+    font-size: 100px;
+    text-align: center;
+    padding: 200px 150px 150px;
+    text-shadow: 0px 0px 10px #d71010;
+    color: #000000;
+}
+
+
+#hero{
+    text-align: center;
+    background-image: url("../image/backgroundImage.jpg");
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+
+}
+.blogArticle{
+
+}
+#blog{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+}
+#skills{
+    margin: auto;
+    width: 80%;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #4f5050;
+    margin-top: 50px;
+    padding: 50px;
+}
+footer a {
+    font-size: 16px;
+}
+#skillsSection{
+    height: auto;
+}
+.navbar{
+    width: 100%;
+}
+@media (max-width: 600px) {
+    #pageHeading{
+        font-size: 4em;
+        padding: 150px 50px 50px;
+
+    }
+    #hero{
+        height: 400px;
+    }
+}
